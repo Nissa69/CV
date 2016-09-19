@@ -1,0 +1,61 @@
+body {
+	background-color: rgb(104, 187, 285);
+	border: 1px solid black;
+	width: 800px;
+	margin: auto;
+}
+
+dl {
+	font-size: 0.9em;
+}
+#container {
+	padding: 10px;
+	display: flex;
+}
+
+#leftbox {
+	background-color: rgb(9, 30, 45);
+	color: white;
+	height: 775px;
+	width: 25%;
+	border: 1px solid black;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	word-wrap: break-word;
+	
+}
+
+#rightbox {
+	
+	width: 70%;
+	border: 1px solid black;
+	margin: 10px;
+	display: inline;
+}
+
+#experiencebox {
+	background-color: white;
+	border: 1px solid black;
+	margin: 10px;
+	padding-left: 10px;
+	height: 45%;
+}
+ #studiesbox {
+ 	background-color: white;
+ 	border: 1px solid black;
+ 	margin: 10px;
+ 	padding-left: 10px;
+ 	height: 50%;
+}
+
+#header {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#footer {
+	padding-bottom: 10px;
+	text-align: center;
+}
